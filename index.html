@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="vscode-container">
+    <!-- Top Title Bar -->
+    <header class="title-bar">
+        <div class="menu-item">
+            <img src="../images/vs code logo.png" alt="vs logo" width="20" height="20">
+            <span>File</span>
+            <span>Edit</span>
+            <span>Selection</span>
+            <span>View</span>
+            <span>Go</span>
+            <span>Run</span>
+            <span>Terminal</span>
+            <span>Help</span>
+        </div>
+        <div class="window-controls">
+            <span>—</span>
+            <span>□</span>
+            <span>✕</span>
+        </div>
+    </header>
+
+    <!-- Far Left Activity Bar -->
+    <nav class="activity-bar">
+        <div class="activity-top">
+            <div class="icon active">📄</div>
+            <div class="icon">🔍</div>
+            <div class="icon">🌿</div>
+            <div class="icon">🐞</div>
+            <div class="icon">🧩</div>
+        </div>
+        <div class="activity-bottom">
+            <div class="icon">👤</div>
+            <div class="icon">⚙️</div>
+        </div>
+    </nav>
+
+    <!-- Sidebar Explorer -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <span>EXPLORER</span>
+            <span>...</span>
+        </div>
+        <div class="sidebar-content">
+            <div class="folder">▼ Open Editors</div>
+            <div class="folder">> Outline</div>
+            <div class="folder">> Timeline</div>
+        </div>
+    </aside>
+
+    <!-- Main Editor Area -->
+    <main class="editor-area">
+        <div class="editor-content">
+            <!-- Faux VS Code Logo -->
+            <div class="vs-logo">
+                <svg viewBox="0 0 100 100" width="150" height="150">
+                    <path d="M74.5,10.5L44.5,40.5L21.5,22.5L7.5,29.5L31.5,50L7.5,70.5L21.5,77.5L44.5,59.5L74.5,89.5L94.5,80.5V19.5L74.5,10.5z M74.5,31.5V68.5L54.5,50L74.5,31.5z" fill="#333"/>
+                </svg>
+            </div>
+            <!-- Shortcuts -->
+            <div class="shortcuts">
+                <div class="shortcut-row">
+                    <span>Open Chat</span>
+                    <span class="keys"><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd></span>
+                </div>
+                <div class="shortcut-row">
+                    <span>Show All Commands</span>
+                    <span class="keys"><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd></span>
+                </div>
+                <div class="shortcut-row">
+                    <span>Find in Files</span>
+                    <span class="keys"><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bottom Status Bar -->
+    <footer class="status-bar">
+        <div class="status-left">
+            <span>🚀 Launchpad</span>
+            <span>⚠ 0</span>
+            <span>⚠ 0</span>
+        </div>
+        <div class="status-right">
+            <span>Prettier</span>
+            <span>Go Live</span>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
